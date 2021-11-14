@@ -69,7 +69,7 @@ public:
 
 			NewArr[size - 1] = newval;
 			pArr = NewArr;
-			delet [] pArr;
+			delete [] pArr;
 		}
 		else {
 			cout << "Date error" << endl;
